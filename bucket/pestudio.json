@@ -1,10 +1,10 @@
 {
-    "version": "9.57",
+    "version": "9.58",
     "description": "Spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.",
     "homepage": "https://www.winitor.com",
     "license": "Freeware",
-    "url": "https://www.winitor.com/tools/pestudio/current/pestudio-9.57.zip",
-    "hash": "df0664f07bc1561788abfad101ac371e37310bb20f50d5171fb3edf65e950eeb",
+    "url": "https://www.winitor.com/tools/pestudio/current/pestudio-9.58.zip",
+    "hash": "06c06dc1e6db6b8672b0827ca800affa0739a6878d9767d89122826ca0a2425e",
     "extract_dir": "pestudio",
     "##": "origin: hoilc/scoop-lemon",
     "shortcuts": [
