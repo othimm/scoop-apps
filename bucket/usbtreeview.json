@@ -24,6 +24,15 @@
             "UsbTreeView - USB Device Tree Viewer"
         ]
     ],
+    "pre_install":[
+        "# --- If UsbTreeView.ini exists as a folder, then remove it ---",
+        "if (Test-Path "$persist_dir\UsbTreeView.ini" -PathType Container) {",
+        "    Remove-Item "$persist_dir\UsbTreeView.ini" -Force -Recurse",
+        "}",
+        "if (!(Test-Path "$persist_dir\UsbTreeView.ini")) {",
+        "   New-Item "$dir\UsbTreeView.ini" -ItemType File | Out-Null",
+        "}"
+    ],
     "persist":"UsbTreeView.ini",
     "checkver": "USB Device Tree Viewer V([\\d.]+)",
     "autoupdate": {
