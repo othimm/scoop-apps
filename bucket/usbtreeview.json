@@ -24,6 +24,7 @@
             "UsbTreeView - USB Device Tree Viewer"
         ]
     ],
+    "persist":"UsbTreeView.ini",
     "checkver": "USB Device Tree Viewer V([\\d.]+)",
     "autoupdate": {
         "architecture": {
