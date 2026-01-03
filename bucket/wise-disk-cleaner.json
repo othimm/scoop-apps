@@ -9,13 +9,13 @@
     "##": "origin: naderi/scoop-bucket",
     "shortcuts": [
         [
-            "WiseDiskCleaner.exe",
+            "WDCFree_$version(x64)/WiseDiskCleaner.exe",
             "Wise Disk Cleaner"
         ]
     ],
     "persist": [
-        "config.ini",
-        "DefragOptions.ini"
+        "WDCFree_$version(x64)/config.ini",
+        "WDCFree_$version(x64)/DefragOptions.ini"
     ],
     "checkver": {
         "url": "https://www.wisecleaner.com/download.html",
