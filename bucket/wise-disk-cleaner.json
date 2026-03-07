@@ -4,7 +4,7 @@
     "homepage": "https://www.wisecleaner.com/wise-disk-cleaner.html",
     "license": "Freeware",
     "url": "http://downloads.wisecleaner.com/soft/WDCFree_11.3.3.853.zip",
-    "hash": "06012688d5c259a038902b16b598dd3bd08e36b37cacd20f47d998719607c6de",
+    "hash": "e38093d5e050cbc7eee29358273b67c601c712a0788493ba16106801264ed0d8",
     "extract_dir": "WDCFree_11.3.3.853",
     "##": "origin: naderi/scoop-bucket",
     "pre_install": [
