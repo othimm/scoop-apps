@@ -17,7 +17,7 @@
         },
         "64bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX64.zip",
-            "hash": "d1c42357e7867a64457f404183dbcdccd21c130269d08ddaec53f45ffb43f887"
+            "hash": "e7bdb4dd8b97cc57a7632c28efd442523d1d118e55541cd3df769192e2c6bda7"
         }
     },
     "pre_install": "Remove-Item \"$dir\\Updater.exe\" | Out-Null",
