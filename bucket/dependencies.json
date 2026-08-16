@@ -5,10 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/himeshsameera/Dependencies/releases/download/v2.2.0/Dependencies_v2.2.0_x64.zip"
+            "url": "https://github.com/himeshsameera/Dependencies/releases/download/v2.2.0/Dependencies_v2.2.0_x64.zip",
+		    "hash": "12B31ABCB06636A00E0097FB0D5DE803357C98728EBC1F0742648A7D2E8FF22A"
         },
         "32bit": {
-            "url": "https://github.com/himeshsameera/Dependencies/releases/download/v2.2.0/Dependencies_v2.2.0_x86.zip"
+            "url": "https://github.com/himeshsameera/Dependencies/releases/download/v2.2.0/Dependencies_v2.2.0_x86.zip",
+			"hash": "D24B21037420917E2565C1880BB76B4B8F2DC88E6C23355E11F9A4CD91100B9B"
         }
     },
     "bin": [
@@ -28,11 +30,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/himeshsameera/Dependencies/releases/download/v$version/Dependencies_v$version_x64.zip"
-				"hash": "12B31ABCB06636A00E0097FB0D5DE803357C98728EBC1F0742648A7D2E8FF22A"
             },
             "32bit": {
                 "url": "https://github.com/himeshsameera/Dependencies/releases/download/v$version/Dependencies_v$version_x86.zip"
-				"hash": "D24B21037420917E2565C1880BB76B4B8F2DC88E6C23355E11F9A4CD91100B9B"				
             }
         }
     }
