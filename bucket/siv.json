@@ -1,0 +1,27 @@
+{
+    "version": "5.87",
+    "description": "System Information Viewer",
+    "homepage": "https://www.rh-software.com/",
+    "license": "Freeware",
+    "url": "https://dl.filehorse.com/win/system-tuning/siv/siv_v5.87.zip",
+    "hash": "E2C89159EC803007CABDFB11E8DBA9C26762D2EBEDD13B522CB1BF2E5745EB18",
+    "bin": [
+        [
+            "SIV64X.exe",
+            "siv"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "SIV64X.exe",
+            "SIV"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.filehorse.com/download-siv/",
+        "regex": "System Information Viewer \\(SIV\\) ([\\d.]+) LATEST"
+    },
+    "autoupdate": {
+        "url": "https://dl.filehorse.com/win/system-tuning/siv/siv_v$version.zip"
+    }
+}
