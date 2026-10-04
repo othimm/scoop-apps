@@ -1,0 +1,20 @@
+{
+    "version": "2026-09-28",
+    "description": "TV channel list editor for Samsung, LG, Sony, Hisense, Panasonic, Philips, TCL, Sharp, Toshiba and many more",
+    "homepage": "https://github.com/PredatH0r/ChanSort",
+    "license": "GPL-3.0",
+    "url": "https://github.com/PredatH0r/ChanSort/releases/download/v2026-09-28/ChanSort_2026-09-28.zip",
+    "extract_dir": "ChanSort_2026-09-28",
+    "bin": "ChanSort.exe",
+    "shortcuts": [
+        [
+            "ChanSort.exe",
+            "ChanSort"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/PredatH0r/ChanSort/releases/download/v$version/ChanSort_$version.zip",
+        "extract_dir": "ChanSort_$version"
+    }
+}
